@@ -2,7 +2,7 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "my-library": ["../src"]
+      "shadcn-vue-ui": ["../src"]
     },
     "types": ["vite/client"]
   },
