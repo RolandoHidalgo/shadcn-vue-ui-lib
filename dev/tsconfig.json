@@ -3,6 +3,9 @@
   "compilerOptions": {
     "paths": {
       "shadcn-vue-ui": ["../src"],
+      "@base/*": [
+        "../src/base/*"
+      ],
       "@/*": ["../dev"]
     },
     "types": ["vite/client"]

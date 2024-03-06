@@ -14,6 +14,7 @@ export default defineConfig({
   resolve: {
     alias: {
       'shadcn-vue-ui': path.resolve(__dirname, '../src'),
+      '@base': path.resolve(__dirname, '../src/base'),
       '@': path.resolve(__dirname, '../dev'),
     },
   },
